@@ -1,0 +1,17 @@
+﻿@model Tour
+
+<div>
+    <span>Tur Adı..: </span> <span>@Model.Name</span>
+</div>
+<div>
+    <span>Tur Resmi..: </span> <img src="@Model.Picture" alt="@Model.Name"/>
+</div>
+<div>
+    <span>Tur Açıklaması..: </span>  <span>@Model.Description</span>
+</div>
+<div>
+    <span>Tur Detayı..: </span>  <span>@Model.Detail</span>
+</div>
+<div>
+    <span>Ülke İsmi..: </span>  <span>@Model.Country.Name</span>
+</div>

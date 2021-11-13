@@ -1,0 +1,10 @@
+﻿@model Country
+
+<h1>@Model.Name.ToUpper() ÜLKESİ</h1>
+
+<ul>
+    @foreach (Tour t in Model.Tours)
+	{
+		 <li>@t.Name</li>
+	}
+</ul>
